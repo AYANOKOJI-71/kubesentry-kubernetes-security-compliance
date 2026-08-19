@@ -1,0 +1,26 @@
+# Python development state
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Frontend development and generated bundles
+apps/web/node_modules/
+apps/web/dist/
+apps/web/*.tsbuildinfo
+apps/web/vite.config.js
+apps/web/vite.config.d.ts
+
+# Local-only state and secrets
+.env
+.env.*
+!.env.example
+runtime/
+*.log
+
+# Operating-system/editor state
+.DS_Store
+.idea/
+.vscode/
