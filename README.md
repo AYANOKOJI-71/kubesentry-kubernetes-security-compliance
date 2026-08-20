@@ -1,6 +1,6 @@
 # KubeSentry — Kubernetes Security & Compliance Scanner
 
-KubeSentry is an interview-ready, **defensive local-manifest review** workspace for Kubernetes YAML that an operator owns or is explicitly authorized to assess. It inventories supplied resources, evaluates a versioned reviewed-baseline policy set, and returns evidence-rich findings with remediation context. The project is designed for demonstration and controlled client-review workflows; it does not discover clusters, execute manifests, retain credentials, or probe remote targets.
+KubeSentry is a **defensive local-manifest review** workspace for Kubernetes YAML that an operator owns or is explicitly authorized to assess. It inventories supplied resources, evaluates a versioned reviewed-baseline policy set, and returns evidence-rich findings with remediation context. The project is designed for demonstration and controlled client-review workflows; it does not discover clusters, execute manifests, retain credentials, or probe remote targets.
 
 > KubeSentry is advisory software, not an authorization mechanism or a substitute for a platform team’s change-management process. Assess only manifests you are authorized to review.
 
